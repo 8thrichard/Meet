@@ -6,7 +6,8 @@
 }
 
 header img {
-    padding:  40px;
+    padding-left: 150px;
+    padding-top: 40px;
 }
 
 body{
@@ -15,27 +16,56 @@ body{
 
 main h1 {
     color: #32f5c8;
-    font-size: 150px;
-    padding: 40px;
+    font-size: 180px;
     font-weight: 700;
+    padding-left: 150px;
+    padding-top: 50px;
     font-family: 'Sen', sans-serif;
 
 }
 
 main p {
     color:#a9bdc6;
-    padding: 40px;
+    padding-left: 150px;
+    padding-bottom: 20px;
     font-size: 25px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
 
 main button {
-    margin: 40px;
+    margin-left: 150px;
     padding: 20px 40px;
     background-color:#32f5c8;
     font-weight: bold;
     border-radius: 10px;
     border: none;
     font-size: 20px;
+}
+
+
+.images {
+    position: absolute;
+}
+
+#image1 {
+    top: 120px;
+    left: 55px;
+    z-index: -10;
+}
+
+#image3 {
+    top: 267px;
+    left: 1098px;
+    z-index: -3;
+}
+
+#image2 {
+    top: 620px;
+    left: 870px
+}
+
+#image4 {
+    top: 207px;
+    left: 1259px;
 }
