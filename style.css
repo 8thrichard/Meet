@@ -46,26 +46,36 @@ main button {
 
 .images {
     position: absolute;
+    z-index: -1;
 }
 
 #image1 {
     top: 120px;
     left: 55px;
-    z-index: -10;
+
 }
 
 #image3 {
-    top: 267px;
-    left: 1098px;
-    z-index: -3;
+    top: 108px;
+    left: 1076px;
 }
 
 #image2 {
-    top: 620px;
-    left: 870px
+    top: 475px;
+    left: 840px;
 }
 
 #image4 {
-    top: 207px;
+    top: 53px;
     left: 1259px;
+}
+
+#image5 {
+    top: 475px;
+    left: 1340px
+}
+
+#image6 {
+    top: 620px;
+    left: 1112px;  
 }
