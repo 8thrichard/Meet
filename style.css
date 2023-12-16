@@ -258,7 +258,7 @@ footer p {
 
 
 }
-
+/* 
 @media only screen and (min-width: 375px) and (max-width: 430px) {
     header img {
         padding-left: 20px;
@@ -301,7 +301,6 @@ footer p {
     #image1 {
         top: 95px;
         left: 3px;
-        scale: 0.7;
     }
 
     #image2 {
@@ -321,4 +320,4 @@ footer p {
     }
 
 
-}
+} */
