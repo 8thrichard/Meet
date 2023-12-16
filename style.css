@@ -40,12 +40,12 @@ main p {
 
 main button {
     margin-left: 150px;
-    padding: 20px 40px;
+    padding: 30px 40px;
     background-color:#32f5c8;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
     transition: 0.5s;
     font-family: 'Inter', sans-serif;
 }
@@ -111,3 +111,81 @@ footer p {
     font-weight: 500;
     font-family: 'Inter', sans-serif;
 }
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1024px) {
+
+    img {
+        scale: 1.3;
+    }
+    header img {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    main h1{
+        font-size: 135px;
+        padding-left: 30px;
+        position: relative;
+        padding-top: 300px;
+    }
+
+    main p {
+        padding-left: 30px;
+        font-size: 33px;
+        padding-bottom: 40px;
+    }
+
+    main button {
+        margin-left: 35px;
+        padding: 30px 45px;
+        font-size: 35px;
+    }
+
+    footer p {
+        margin-top:277px;
+        margin-left: 24px;
+        font-size:30px;
+    }
+
+    footer img {
+        padding-left: 35px;
+        padding-top: 215px;
+    }
+
+
+#image1 {
+    top: 134px;
+    left: 42px;
+
+}
+
+#image3 {
+    top: 309px;
+    left: 654px;
+}
+
+#image2 {
+    top: 667px;
+    left: 720px;
+    z-index: 1;
+}
+
+#image4 {
+    top: 72px;
+    left: 782px;
+}
+
+#image5 {
+    top: 423px;
+    left: 843px
+}
+
+#image6 {
+    top: 965px;
+    left: 640px;  
+}
+
+}
+@media screen and (max-width: 768px) {}
