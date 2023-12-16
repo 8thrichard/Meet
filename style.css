@@ -114,7 +114,7 @@ footer p {
 
 
 /* Media Queries for Responsiveness */
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (orientation: portrait)  {
 
     img {
         scale: 1.3;
@@ -188,4 +188,71 @@ footer p {
 }
 
 }
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    img {
+        scale: 1.3;
+    }
+    header img {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    main h1{
+        font-size: 100px;
+        padding-left: 30px;
+        position: relative;
+        padding-top: 300px;
+        padding-bottom: 30px;
+    }
+
+    main p {
+        padding-left: 30px;
+        font-size: 33px;
+        padding-bottom: 40px;
+        line-height: 1.5;
+    }
+
+    main button {
+        margin-left: 35px;
+        padding: 30px 45px;
+        font-size: 35px;
+    }
+
+    footer p {
+        margin-top:277px;
+        margin-left: 24px;
+        font-size:30px;
+    }
+
+    footer img {
+        padding-left: 35px;
+        padding-top: 215px;
+    }
+
+
+    #image1 {
+        top: 134px;
+        left: 42px;
+        scale: 1.4;
+    }
+
+    #image2 {
+        top: 903px;
+        left: 480px;
+        z-index: -1;
+        scale: 2;
+    }
+
+    #image4 {
+        top: 200px;
+        left: 471px;
+        scale: 1.5;
+    }
+
+    #image3 , #image5,#image6 {
+        display: none;
+    }
+
+
+}
